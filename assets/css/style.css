@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #9ae5e5;
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+    padding: 10px 0px;
+    background-color: #2e3338;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #2e3338;
+    margin: 0;
+    background-color: #9ae5e5;
+    padding: 0px 15px 0px 60px;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: #2e3338;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #9ae5e5;
+    text-decoration: underline;
+}
