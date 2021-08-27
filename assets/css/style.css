@@ -70,20 +70,80 @@ section {
     right: 80px;
 }
 
-.work-entry h3 {
+.work-entry h3, 
+.sub-work-entry-one h3,
+.sub-work-entry-two h3,
+.sub-work-entry-three h3, 
+.sub-work-entry-four h3 {
     font-size: 25px;
     margin: 0;
 }
 
-.work-entry h4 {
+.work-entry h4,
+.sub-work-entry-one h4,
+.sub-work-entry-two h4,
+.sub-work-entry-three h4,
+.sub-work-entry-four h4ß {
     font-size: 15px;
 }
 
 .work-entry h3, 
-.work-entry h4 {
+.work-entry h4, 
+.sub-work-entry-one h3, 
+.sub-work-entry-one h4,
+.sub-work-entry-two h3,
+.sub-work-entry-two h4,
+.sub-work-entry-three h3,
+.sub-work-entry-three h4, 
+.sub-work-entry-four h3,
+.sub-work-entry-four h4 {
     background-color: #9ae5e5;
 }
 
-.sub-work-entry {
+.sub-work-entry-one {
+    background-image: url("../images/pexels-pixabay-158826.jpg");
+    height: 50px;
+    width: 400px;
+    position: relative;
+    top: 525px;
+    left: 130px;
+    color: #2e3338;
+    border: solid 5px #9ae5e5;
+    padding: 150px 280px 60px 0;
+}
 
+.sub-work-entry-two {
+    background-image: url("../images/pexels-mateusz-dach-450035.jpg");
+    height: 50px;
+    width: 400px;
+    position: relative;
+    top: 315px;
+    left: 630px;
+    color: #2e3338;
+    border: solid 5px #9ae5e5;
+    padding: 140px 225px 60px 0;
+}
+
+.sub-work-entry-three {
+    background-image: url("../images/pexels-scott-webb-174054.jpg");
+    height: 50px;
+    width: 400px;
+    position: relative;
+    top: 340px;
+    left: 130px;
+    color: #2e3338;
+    border: solid 5px #9ae5e5;
+    padding: 130px 300px 90px 0;
+}
+
+.sub-work-entry-four {
+    background-image: url("../images/run-buddy.jpg");
+    height: 50px; 
+    width: 400px;
+    position: relative;
+    top: 110px;
+    left: 630px;
+    color: #2e3338;
+    border: solid 5px #9ae5e5;
+    padding: 140px 225px 80px 0;
 }
