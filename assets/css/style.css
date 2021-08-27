@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -44,4 +45,45 @@ header nav ul li a {
     font-size: 22px;
     color: #9ae5e5;
     text-decoration: underline;
+}
+
+section {
+    padding: 60px;
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/pexels-david-bartus-963278.jpg");  
+    height: 250px;
+    background-size: cover;
+}
+/* Hero Style End */
+
+.work-entry {
+    background-image: url("../images/pexels-travis-rupert-1032650.jpg");
+    height: 500px;
+    width: 900px;
+    padding: 425px 750px 50px 0px;
+    color: #2e3338;
+    border: solid 5px #9ae5e5;
+    position: absolute;
+    right: 80px;
+}
+
+.work-entry h3 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.work-entry h4 {
+    font-size: 15px;
+}
+
+.work-entry h3, 
+.work-entry h4 {
+    background-color: #9ae5e5;
+}
+
+.sub-work-entry {
+
 }
