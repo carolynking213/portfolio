@@ -5,7 +5,6 @@
 }
 
 body {
-    color: #9ae5e5;
     font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
 }
 
@@ -16,9 +15,8 @@ header {
 }
 
 header h1 {
-    font-weight: bold;
+    font-weight: lighter;
     font-size: 50px;
-    color: #2e3338;
     margin: 0;
     background-color: #9ae5e5;
     padding: 0px 15px 0px 60px;
@@ -33,11 +31,10 @@ header a {
 header nav {
     float: right;
     margin: 7px 0;
-    padding: 5px 0 0 0;
 }
 
 header nav ul li {
-    display: inline;
+   display: inline;
 }
 
 header nav ul li a {
@@ -72,10 +69,6 @@ section {
 }
 /* Hero Styles End */
 
-.intro {
-    
-}
-
 .intro h2 {
     font-size: 50px;
     color: #2e3338;
@@ -93,6 +86,16 @@ section {
     font-size: 15px;
     margin: 0 auto;
     padding: 0 0 0 200px;
+}
+
+.work-style {
+    font-size: 50px;
+    color: #2e3338;
+    margin-bottom: 35px;
+    padding: 0 110px 10px 0;
+    border-right: 3px solid;
+    border-color: #2e3338;
+    display: inline-block;
 }
 
 .work-entry {
@@ -182,4 +185,29 @@ section {
     color: #2e3338;
     border: solid 5px #9ae5e5;
     padding: 140px 225px 80px 0;
+}
+
+h3 a {
+    text-decoration: none; 
+    color: #2e3338;
+}
+
+.contact h2 {
+    font-size: 50px;
+    color: #2e3338;
+    margin-bottom: 35px;
+    padding: 0 10px 10px 0;
+    border-right: 3px solid;
+    border-color: #2e3338;
+    display: inline-block;
+}
+
+.resume-style {
+    font-size: 35px;
+    color: #2e3338;
+    margin-bottom: 35px;
+    padding: 0 72px 10px 65px;
+    border-right: 3px solid;
+    border-color: #2e3338;
+    display: inline-block;
 }
