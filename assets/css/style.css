@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -48,3 +49,26 @@ header nav ul li a {
     font-size: 22px;
     text-decoration: underline;
 }
+
+section {
+    padding: 60px;
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/pexels-david-bartus-963278.jpg");
+    height: 250px;
+    position: relative;
+}
+
+.hero-subtitle {
+    background-color: #9ae5e5;
+    padding: 20px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+}
+/* Hero Style End */
