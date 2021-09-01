@@ -1,31 +1,36 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
+    color: #2e3338;
     font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
 }
 
 /* apply styles to <header> */
 header {
-    padding: 10px 0px;
+    padding: 20px 0px;
     background-color: #2e3338;
 }
 
 header h1 {
     font-weight: lighter;
-    font-size: 50px;
+    font-size: 36px;
+    color: #2e3338;
     margin: 0;
-    background-color: #9ae5e5;
-    padding: 0px 15px 0px 60px;
     display: inline;
+    background-color: #9ae5e5;
+    padding: 0 0 0 50px;
+}
+
+header h1 a {
+    color: #2e3338;
 }
 
 header a {
     text-decoration: none;
-    color: #2e3338;
+    color: #9ae5e5;
 }
 
 header nav {
@@ -34,180 +39,12 @@ header nav {
 }
 
 header nav ul li {
-   display: inline;
+    display: inline;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-    color: #9ae5e5;
     text-decoration: underline;
-}
-
-section {
-    padding: 60px;
-}
-
-/* Hero Styles Start */
-.hero {
-    background-image: url("../images/pexels-david-bartus-963278.jpg");  
-    height: 250px;
-    background-size: cover;
-}
-
-.subtitle {
-    background-color: #9ae5e5;
-    padding: 20px;
-    width: 200px;
-    color: #2e3338;
-    font-size: 30px;
-    text-align: center;
-    position: absolute;
-    bottom: 325px;
-    right: 30px;
-}
-/* Hero Styles End */
-
-.intro h2 {
-    font-size: 50px;
-    color: #2e3338;
-    margin-bottom: 35px;
-    padding: 0 10px 10px 0;
-    border-right: 3px solid;
-    border-color: #2e3338;
-    display: inline-block;
-}
-
-.intro p {
-    line-height: 1.7;
-    color: #2e3338;
-    width: 80%;
-    font-size: 15px;
-    margin: 0 auto;
-    padding: 0 0 0 200px;
-}
-
-.work-style {
-    font-size: 50px;
-    color: #2e3338;
-    margin-bottom: 35px;
-    padding: 0 110px 10px 0;
-    border-right: 3px solid;
-    border-color: #2e3338;
-    display: inline-block;
-}
-
-.work-entry {
-    background-image: url("../images/pexels-travis-rupert-1032650.jpg");
-    height: 500px;
-    width: 900px;
-    padding: 425px 750px 50px 0px;
-    color: #2e3338;
-    border: solid 5px #9ae5e5;
-    position: absolute;
-    right: 80px;
-}
-
-.work-entry h3, 
-.sub-work-entry-one h3,
-.sub-work-entry-two h3,
-.sub-work-entry-three h3, 
-.sub-work-entry-four h3 {
-    font-size: 25px;
-    margin: 0;
-}
-
-.work-entry h4,
-.sub-work-entry-one h4,
-.sub-work-entry-two h4,
-.sub-work-entry-three h4,
-.sub-work-entry-four h4ß {
-    font-size: 15px;
-}
-
-.work-entry h3, 
-.work-entry h4, 
-.sub-work-entry-one h3, 
-.sub-work-entry-one h4,
-.sub-work-entry-two h3,
-.sub-work-entry-two h4,
-.sub-work-entry-three h3,
-.sub-work-entry-three h4, 
-.sub-work-entry-four h3,
-.sub-work-entry-four h4 {
-    background-color: #9ae5e5;
-}
-
-.sub-work-entry-one {
-    background-image: url("../images/pexels-pixabay-158826.jpg");
-    height: 50px;
-    width: 400px;
-    position: relative;
-    top: 525px;
-    left: 130px;
-    color: #2e3338;
-    border: solid 5px #9ae5e5;
-    padding: 150px 280px 60px 0;
-}
-
-.sub-work-entry-two {
-    background-image: url("../images/pexels-mateusz-dach-450035.jpg");
-    height: 50px;
-    width: 400px;
-    position: relative;
-    top: 315px;
-    left: 630px;
-    color: #2e3338;
-    border: solid 5px #9ae5e5;
-    padding: 140px 225px 60px 0;
-}
-
-.sub-work-entry-three {
-    background-image: url("../images/pexels-scott-webb-174054.jpg");
-    height: 50px;
-    width: 400px;
-    position: relative;
-    top: 340px;
-    left: 130px;
-    color: #2e3338;
-    border: solid 5px #9ae5e5;
-    padding: 130px 300px 90px 0;
-}
-
-.sub-work-entry-four {
-    background-image: url("../images/run-buddy.jpg");
-    height: 50px; 
-    width: 400px;
-    position: relative;
-    top: 110px;
-    left: 630px;
-    color: #2e3338;
-    border: solid 5px #9ae5e5;
-    padding: 140px 225px 80px 0;
-}
-
-h3 a {
-    text-decoration: none; 
-    color: #2e3338;
-}
-
-.contact h2 {
-    font-size: 50px;
-    color: #2e3338;
-    margin-bottom: 35px;
-    padding: 0 10px 10px 0;
-    border-right: 3px solid;
-    border-color: #2e3338;
-    display: inline-block;
-}
-
-.resume-style {
-    font-size: 35px;
-    color: #2e3338;
-    margin-bottom: 35px;
-    padding: 0 72px 10px 65px;
-    border-right: 3px solid;
-    border-color: #2e3338;
-    display: inline-block;
 }
