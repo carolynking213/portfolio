@@ -73,7 +73,7 @@ section {
 }
 /* Hero Style End */
 
-.intro h2 {
+.section-title {
     font-size: 55px; 
     margin-bottom: 35px;
     padding: 0 5px 0 0;
@@ -82,9 +82,90 @@ section {
     width: 175px;
 }
 
+.primary-border {
+    width: 250px;
+}
+
 .intro p {
     line-height: 1.7;
     width: 80%;
     margin: 0 auto;
     float: right;
+}
+
+.entries {
+
+}
+
+.entries div {
+    margin-bottom: 80px;
+}
+
+.entries img {
+    width: 80%;
+    margin: 10px 0;
+    float: right;
+    border: 5px solid #9ae5e5;;
+    position: relative;
+    top: -125px;
+}
+
+.entries h3 {
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.entries h4 {
+    font-size: 23px;
+}
+
+.work-entry {
+    background-color: #9ae5e5;
+    position: absolute;
+    margin: 325px 215px;
+}
+
+.img2 {
+    width: 40%;
+    margin: 0 0 0 125px;
+    display: inline-block;
+}
+
+.work-entry-two {
+    background-color: #9ae5e5;
+    position: absolute;
+    margin: 10px 0 0 89px;
+}
+
+.img3 {
+    width: 40%;
+    margin: -500px 0 0 630px;
+}
+
+.work-entry-three {
+    background-color: #9ae5e5;
+    position: absolute;
+    margin: 180px 0 0 89px;
+}
+
+.img4 {
+    width: 40%;
+    margin: 415px 0 0 125px;
+    object-fit: none;
+}
+
+.img5 {
+    width: 40%;
+    margin: 0;
+    display: inline-block;
+    float: right;
+    margin: -250px 0 50px 0;
+    background-size: 100% auto;
+
+}
+
+.work-entry-five {
+    background-color: #9ae5e5;
+    position: absolute;
+    margin: 10px 0 0 89px;
 }
