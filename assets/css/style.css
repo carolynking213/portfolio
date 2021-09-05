@@ -122,35 +122,51 @@ section {
 .work-entry {
     background-color: #9ae5e5;
     position: absolute;
-    margin: 320px 215px 0 200px;
+    margin: 300px 215px 0 197px;
+}
+
+.work-entry a,
+.work-entry-two a, 
+.work-entry-three a,
+.work-entry-four a,
+.work-entry-five a {
+    text-decoration: none;
+    padding: 0;
 }
 
 .img2 {
     width: 40%;
-    margin: 0 -20px 0 125px;
+    margin: 0 -20px 0 115px;
     display: inline-block;
 }
 
 .work-entry-two {
     background-color: #9ae5e5;
     position: absolute;
-    margin: 0 0 20px 85px;
+    margin: -10px 0 100px 80px;
+}
+
+.work-entry-four {
+    background-color: #9ae5e5;
+    position: absolute;
+    margin: 0 50px 0 80px;
+    padding: 0;
 }
 
 .img3 {
     width: 40%;
-    margin: -500px 0 -50px 600px;
+    margin: -500px 0 -50px 575px;
 }
 
 .work-entry-three {
     background-color: #9ae5e5;
     position: absolute;
-    margin: 180px 0 0 85px;
+    margin: 180px 0 0 80px;
 }
 
 .img4 {
     width: 40%;
-    margin: 415px 0 0 125px;
+    margin: 415px 0 0 115px;
     object-fit: none;
 }
 
@@ -159,15 +175,17 @@ section {
     margin: 0;
     display: inline-block;
     float: right;
-    margin: -250px 0 50px 0;
+    margin: -235px 0 100px 0;
     background-size: 100% auto;
+    height: auto;
+    top: -50px;
 
 }
 
 .work-entry-five {
     background-color: #9ae5e5;
     position: absolute;
-    margin: 10px 0 0 83px;
+    margin: 10px 0 0 80px;
 }
 
 .contact-info a {
@@ -201,6 +219,8 @@ section div address {
 section div address a {
     margin: 0 30px;
 }
+
+/* CONTACT STYLES END */
 
 #resume {
     display: flex;
