@@ -62,19 +62,18 @@ section {
 /* Hero Style Start */
 .hero {
     background-image: url("../images/pexels-david-bartus-963278.jpg");
-    height: 250px;
-    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .hero-subtitle {
     background-color: #9ae5e5;
     padding: 20px;
-    width: 150px;
     font-size: 20px;
     text-align: center;
-    position: absolute;
-    bottom: 30px;
-    right: 100px;
+    width: 15%;
+    margin: 3.5%;
 }
 /* Hero Style End */
 
