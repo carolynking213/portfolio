@@ -79,11 +79,11 @@ section {
 
 .section-title {
     font-size: 55px; 
-    margin-bottom: 35px;
-    padding: 0 5px 0 0;
     border-right: 3px solid;
-    display: inline-block;
-    width: 175px;
+    width: 16%;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 0 10px 35px 10px;
 }
 
 .primary-border {
@@ -93,8 +93,9 @@ section {
 .intro p {
     line-height: 1.7;
     width: 80%;
-    margin: 0 auto;
+    margin: -150px 0 0 200px;
     float: right;
+    text-align: left;
 }
 
 .entries {
@@ -234,4 +235,8 @@ section div a {
     display: flex;
     padding: 25px;
     color: #2e3338;
+}
+
+.flex-row {
+    display: flex;
 }
