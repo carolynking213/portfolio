@@ -11,4 +11,4 @@ A website to showcase my application development.
 https://carolynking213.github.io/portfolio/
 
 ## Contribution 
-Made with ❤️ by Carolyn K.
+Made with ❤️ by Carolyn M. King
